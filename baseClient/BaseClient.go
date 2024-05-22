@@ -65,7 +65,7 @@ func (auth *Auth) InitCloudAuth(ak string, sk string) {
 	auth.isCloudUser = true
 }
 func (auth *Auth) refresh() {
-	log.Println("get access_token")
+	// log.Println("get access_token")
 	now := time.Now().Unix()
 	url := fmt.Sprintf(authUrl, auth.ak, auth.sk)
 	resp, err := auth.client.Get(url)
