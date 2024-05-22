@@ -60,7 +60,7 @@ func (auth *Auth) InitCloudAuth(ak string, sk string) {
 	auth.ak = ak
 	auth.sk = sk
 	auth.client = http.Client{
-		Timeout: time.Second * 20,	
+		Timeout: time.Second * 20,
 	}
 	auth.isCloudUser = true
 }
