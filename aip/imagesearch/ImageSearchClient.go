@@ -19,7 +19,7 @@ package imagesearch
 import (
 	"strconv"
 
-	"github.com/deanxv/golang-sdk/baseClient"
+	"github.com/deanxv/baidu-golang-sdk/baseClient"
 )
 
 const __imageSearchSameHqAdd = "https://aip.baidubce.com/rest/2.0/realtime_search/same_hq/add"

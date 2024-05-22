@@ -1,3 +1,3 @@
-module github.com/deanxv/golang-sdk
+module github.com/deanxv/baidu-golang-sdk
 
 go 1.17

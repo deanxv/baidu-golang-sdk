@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/deanxv/golang-sdk/aip/imagesearch"
+	"github.com/deanxv/baidu-golang-sdk/aip/imagesearch"
 
-	"github.com/deanxv/golang-sdk/util"
+	"github.com/deanxv/baidu-golang-sdk/util"
 )
 
 var image = util.ReadFileToBase64("test/resources/image/baidu_image.png")
